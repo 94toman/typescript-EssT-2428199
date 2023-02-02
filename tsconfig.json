@@ -1,10 +1,14 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "checkJs": true,
-        "outDir": "build",
-        "target": "esnext",
-        "noEmit": true
-    },
-    "include": ["src/**/*"]
+	"compilerOptions": {
+		// Alowing JS files check by TS
+		"allowJs": true,
+		"checkJs": true,
+		// Output folder
+		"outDir": "build",
+		//version of JS used in the output
+		"target": "esnext",
+		// doesn't really output any JS files
+		"noEmit": true
+	},
+	"include": ["src/**/*"]
 }
